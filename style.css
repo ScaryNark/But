@@ -1,3 +1,6 @@
+body{
+    background: red
+}
 .pick{
     display: flex;
     justify-content: center;
