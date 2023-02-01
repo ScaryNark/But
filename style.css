@@ -1,0 +1,69 @@
+.pick{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.pick button{
+    padding: 30px 80px;
+    border-radius: 20px;
+    font-size: 18px;
+    background-color: rgba(16, 175, 154, 0.583);
+    cursor: pointer;
+}
+.modal{
+    display: none;
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+}
+.modal__window{
+    position: absolute;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+    border: 2px solid gray;
+    border-radius: 10%;
+}
+.modal__nav1{
+    margin: 10px 10px;
+}
+.modal__nav1 h3{
+    font-size: 22px;
+}
+.modal__nav2 p{
+    font-size: 18px;
+}
+.modal__nav2{
+    margin: 10px 10px;
+}
+.modal__nav3{
+    margin: 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.modal__nav3 button{
+    padding: 10px 25px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: brown;
+}
+/* span{
+
+}
+span:after,
+span:before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 10px;
+}
+span:after{
+    rotate: 45deg;
+}
+span:before{
+    rotate: -45deg;
+} */
